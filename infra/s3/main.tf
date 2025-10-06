@@ -15,5 +15,3 @@ resource "aws_s3_bucket" "remote_state_bucket" {
     Environment = var.environment
   }
 }*/
-
-
