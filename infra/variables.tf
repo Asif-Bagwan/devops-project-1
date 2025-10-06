@@ -48,10 +48,10 @@ variable "ec2_ami_id" {
   description = "DevOps Project 1 AMI Id for EC2 instance"
 }
 
-variable "user_data_install_apache" {
+/*variable "user_data_install_apache" {
   type = string
   description = "Script for installing the Apache2"
-}
+}*/
 
 variable "domain_name" {
   type = string
